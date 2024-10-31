@@ -1,0 +1,39 @@
+package exercicios_lacos_condicionais;
+
+import java.util.Scanner;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+		String nome;
+		float idade;
+		boolean doador;
+					
+		Scanner leia = new Scanner(System.in);
+
+		System.out.println("Digite seu nome: ");
+		nome = leia.findInLine(null);
+				 
+		System.out.println("Digite sua idade: ");
+		idade = leia.nextFloat();
+		
+		System.out.println("Voce já doou sangue? (Sim ou Não?) ");
+		doador = leia.nextBoolean();
+
+		
+	     if (idade >= 18 && idade <= 69) {
+	            if (idade < 60 || (idade >= 60 && !doador)) {
+	                doador = true;
+	            }
+	        }
+	        
+	       if (doador) {
+	            System.out.println(nome + " está Apto para doar sangue.");
+	        } else {
+	            System.out.println(nome + " Não está Apto para doar sangue.");
+	        }
+	        
+	}
+
+}

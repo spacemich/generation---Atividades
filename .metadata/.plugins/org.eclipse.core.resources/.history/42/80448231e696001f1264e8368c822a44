@@ -1,0 +1,49 @@
+package exercicios_lacos_condicionais;
+
+import java.util.Scanner;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+
+		int cargo;
+		String nome;
+		float salario;
+		
+		Scanner leia = new Scanner (System.in);
+		
+		System.out.println("# ## ### #### #########   >^º.º^<   ########## #### ### ## #");
+		System.out.println("\n Digite Seu nome completo: ");
+		nome = leia.nextLine();
+		
+		System.out.println("\n Digite [1] se o cargo é Gerente: ");
+		System.out.println(" Digite [2] se o cargo é vendedor: ");
+		System.out.println(" Digite [3] se o cargo é Supervisor: ");
+		System.out.println(" Digite [4] se o cargo é Motorista: ");
+		System.out.println(" Digite [5] se o cargo é Estoquista: ");
+		System.out.println(" Digite [6] se o cargo é Técnico de TI: ");
+		
+		cargo = leia.nextInt();
+		
+		switch (cargo) {
+		
+		case 1:
+			System.out.println("\nGerente");
+			
+		case 2:
+			System.out.println("Vendedor");
+		case 3:
+			System.out.println("Supervisor");		
+		case 4:
+			System.out.println("Motorista");		
+		case 5:
+			System.out.println("Estoquista");
+		case 6:
+			System.out.println("Técnico de TI");
+		}
+		
+		
+		
+	}
+
+}

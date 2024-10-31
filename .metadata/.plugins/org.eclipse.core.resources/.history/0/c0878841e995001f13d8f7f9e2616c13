@@ -1,0 +1,14 @@
+package lacoscondicionais;
+
+public class IF {
+
+	public static void main(String[] args) {
+
+		int n1 = 4, n2 = 3, n3= 4;
+		
+		if(n1 < (n2 + n3)) {
+			
+		}
+	}
+
+}

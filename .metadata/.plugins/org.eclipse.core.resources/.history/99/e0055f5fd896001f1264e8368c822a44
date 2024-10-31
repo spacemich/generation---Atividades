@@ -1,0 +1,16 @@
+package exercicios_lacos_condicionais;
+
+import java.util.Scanner;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		int codprod;
+		Scanner leia = new Scanner(System.in);
+
+		System.out.println("# ## ### #### #########   ESCOLHA O PRODUTO   ########## #### ### ## #");
+		System.out.println("Digite o código do produto: ");
+		codprod = leia.nextInt();
+	}
+
+}

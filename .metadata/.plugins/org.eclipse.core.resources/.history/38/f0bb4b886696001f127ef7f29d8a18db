@@ -1,0 +1,22 @@
+package exercicios_lacos_condicionais;
+
+import java.util.Scanner;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+		int nome;
+		float idade;
+					
+		Scanner leia = new Scanner(System.in);
+
+		System.out.println("Digite um número: ");
+		 = leia.nextFloat();
+
+		System.out.println("Digite um número: ");
+		num = leia.nextFloat();
+
+	}
+
+}

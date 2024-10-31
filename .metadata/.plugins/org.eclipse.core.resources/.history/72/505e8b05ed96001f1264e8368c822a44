@@ -1,0 +1,25 @@
+package exercicios_lacos_condicionais;
+
+import java.util.Scanner;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		
+	Scanner leia = new Scanner(System.in);
+		
+		float num;
+		
+		System.out.print("Digite um número: ");
+		num = leia.nextFloat();
+		
+		System.out.println ("O número equivale a tabuada do " + num + " :");
+		
+		for (int cont = 1; cont <= 10; cont++) {
+			int resul = 
+			System.out.println(num + "x" + i + "=" + (num * i));
+		}
+		
+	}
+
+}

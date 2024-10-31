@@ -1,0 +1,17 @@
+package exercicios_lacos_condicionais;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		int num;
+				
+		Scanner leia = Scanner.nextint();
+		
+		if (num > 0);
+		System.out.println("O número é positivo");
+		{ else if (num < 0); 
+		System.out.println("O número é negativo");
+		}
+
+}

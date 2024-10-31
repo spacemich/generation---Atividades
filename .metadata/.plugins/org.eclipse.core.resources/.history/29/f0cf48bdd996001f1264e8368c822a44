@@ -1,0 +1,55 @@
+package exercicios_lacos_condicionais;
+
+import java.util.Scanner;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		int codprod, qtd;
+		int valor = 0, preco;
+		Scanner leia = new Scanner(System.in);
+
+		System.out.println("# ## ### #### #########   ESCOLHA O PRODUTO   ########## #### ### ## #");
+		System.out.println("Digite o código do produto: ");
+		codprod = leia.nextInt();
+
+		switch (codprod) {
+
+		case 1:
+			System.out.println("cachorro Quente");
+			valor = (int) 10.00;
+			break;
+
+		case 2:
+			System.out.println("X-Salada");
+			valor = (int) 15.00;
+			break;
+		case 3:
+			System.out.println("X-Bacon");
+			valor = (int) 18.00;
+			break;
+
+		case 4:
+			System.out.println("Bauru " + valor);
+			valor = (int) 12.00;
+			break;
+
+		case 5:
+			System.out.println("Refrigerante");
+			valor = (int) 8.00;
+			break;
+
+		case 6:
+			System.out.println("Suco de Laranja");
+			valor = (int) 13.00;
+			break;
+
+		default:
+			System.out.println("Opção invalida!");
+			break;
+			
+		}
+
+	}
+
+}
