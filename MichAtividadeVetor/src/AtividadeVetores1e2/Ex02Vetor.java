@@ -8,7 +8,7 @@ public class Ex02Vetor {
 
 		Scanner leia = new Scanner(System.in);
 
-		int num, 2 = 0, numvetor[] = new int[10];
+		int num, count = 0, numvetor[] = new int[10];
 		float media, soma = 0;
 		String guardari = " ", guardarp = "";
 
