@@ -1,0 +1,10 @@
+package lacos.repeticao;
+
+public class dowhileexemplo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

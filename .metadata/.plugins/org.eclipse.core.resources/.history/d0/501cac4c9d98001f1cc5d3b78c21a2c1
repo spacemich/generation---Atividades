@@ -1,0 +1,26 @@
+package vetor;
+
+import java.lang.reflect.Array;
+
+public class vetorExemplo3 {
+
+	public static void main(String[] args) {
+
+		public static void main(String[] args) {
+
+			String grupoA[] = { "Amanda", "Elen", "Vinicius" };
+			String grupoB[] = {  "Amanda", "Elen", "Vinicius" };
+
+			System.out.println("Os Arrays são iguais?");
+			if (Array.equals(grupoA, grupoB)) {
+				System.out.println("Sim, são iguais");
+			} else {
+				System.out.println("Não, não são iguais");
+			}
+		
+
+	}
+
+}
+}
+

@@ -1,0 +1,18 @@
+package AtividadePraticaJava8;
+
+import java.util.Scanner;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+		int idade=0;
+
+		Scanner leia = new Scanner(System.in);
+
+		while (idade > 0) {
+			System.out.println("Digite sua idade");
+			idade = leia.nextInt();
+		}
+	}
+}

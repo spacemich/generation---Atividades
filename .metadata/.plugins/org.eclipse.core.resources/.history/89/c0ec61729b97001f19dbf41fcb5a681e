@@ -1,0 +1,13 @@
+package lacos.repeticao;
+
+public class exemplofor {
+
+	public static void main(String[] args) {
+
+		for (int count = 0; count < 5; count++);
+		{
+			System.out.printf(count);
+		}
+	}
+
+}

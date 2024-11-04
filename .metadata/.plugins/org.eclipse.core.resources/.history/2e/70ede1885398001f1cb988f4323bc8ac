@@ -1,0 +1,37 @@
+package AtividadePraticaJava8;
+
+import java.util.Scanner;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+
+		int num;
+		System.out.println("Digite o número : ");
+		num = leia.nextInt();
+		
+		if (num1 > num2) {
+			System.out.println("intervalo invalido!");
+
+		} else {
+			for (int i = num1; i < num2; i++) {
+				if (i % 2 == 0 && i % 5 == 10) {
+					System.out.println(i + " é multiplo de 3 e 5");
+					
+				}
+
+			}
+		}
+
+
+
+		
+	}
+
+}
+
+
+//Escreva um algoritmo em Java, que leia 10 números inteiros via teclado e mostre na tela quantos números são pares 
+//e quantos número são ímpares. Veja o exemplo abaixo:

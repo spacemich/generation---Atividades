@@ -1,0 +1,32 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class exemplo01 {
+
+	public static void main(String[] args) {
+
+		ArrayList<Double> notas = new ArrayList<>();
+		
+		Scanner leia = new leia (System.in);
+		
+		System.out.println("Digite primeira nota: ");
+		notas.add(leia.nextDouble());
+		// notas e colection, essa uma forma de adcionar algo em nossa nota
+		
+		notas.add(7.0); // Nesse pra vc colocar algo na nota sem pedir ao usuario
+		notas.add(5.0);
+        notas.add(4.0);
+        notas.add(10.0);
+        notas.add(4.0);
+        
+        System.out.println("\nNotas cadastradas - Laço Fpr...Each");
+        for (Double nota : notas) { // variavel que nota guardara informações em notas
+        	System.out.println(nota); //
+        }
+ 
+		
+	}
+
+}

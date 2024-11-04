@@ -1,0 +1,17 @@
+package AtividadePraticaJava8;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	int;
+	
+	Scanner leia = Scanner(System.in);
+	
+
+}
+//Escreva um algoritmo em Java, que leia números inteiros via teclado, 
+//até que o número zero seja digitado. Ao final, mostre na tela a soma de todos os números digitados, 
+//que sejam positivos. Veja o exemplo abaixo:
